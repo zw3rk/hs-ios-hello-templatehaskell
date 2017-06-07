@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB920501EE8305000252088 /* libhs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB9204F1EE8305000252088 /* libhs.a */; };
+		DAB920521EE8305800252088 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB920511EE8305800252088 /* libiconv.tbd */; };
+		DACB96E91EE745690001AE9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB96E81EE745690001AE9F /* AppDelegate.swift */; };
+		DACB96EB1EE745690001AE9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB96EA1EE745690001AE9F /* ViewController.swift */; };
+		DACB96EE1EE745690001AE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACB96EC1EE745690001AE9F /* Main.storyboard */; };
+		DACB96F01EE745690001AE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACB96EF1EE745690001AE9F /* Assets.xcassets */; };
+		DACB96F31EE745690001AE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACB96F11EE745690001AE9F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAB9204B1EE82F9300252088 /* HelloTemplateHaskell-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloTemplateHaskell-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAB9204F1EE8305000252088 /* libhs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhs.a; path = "hs-libs/libhs.a"; sourceTree = "<group>"; };
+		DAB920511EE8305800252088 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DACB96E51EE745690001AE9F /* HelloTemplateHaskell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTemplateHaskell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB96E81EE745690001AE9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DACB96EA1EE745690001AE9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACB96ED1EE745690001AE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DACB96EF1EE745690001AE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACB96F21EE745690001AE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DACB96F41EE745690001AE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACB96E21EE745690001AE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB920521EE8305800252088 /* libiconv.tbd in Frameworks */,
+				DAB920501EE8305000252088 /* libhs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB9204E1EE8304F00252088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAB920511EE8305800252088 /* libiconv.tbd */,
+				DAB9204F1EE8305000252088 /* libhs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DACB96DC1EE745680001AE9F = {
+			isa = PBXGroup;
+			children = (
+				DACB96E71EE745690001AE9F /* HelloTemplateHaskell */,
+				DACB96E61EE745690001AE9F /* Products */,
+				DAB9204E1EE8304F00252088 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DACB96E61EE745690001AE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACB96E51EE745690001AE9F /* HelloTemplateHaskell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACB96E71EE745690001AE9F /* HelloTemplateHaskell */ = {
+			isa = PBXGroup;
+			children = (
+				DACB96E81EE745690001AE9F /* AppDelegate.swift */,
+				DACB96EA1EE745690001AE9F /* ViewController.swift */,
+				DACB96EC1EE745690001AE9F /* Main.storyboard */,
+				DACB96EF1EE745690001AE9F /* Assets.xcassets */,
+				DACB96F11EE745690001AE9F /* LaunchScreen.storyboard */,
+				DACB96F41EE745690001AE9F /* Info.plist */,
+				DAB9204B1EE82F9300252088 /* HelloTemplateHaskell-Bridging-Header.h */,
+			);
+			path = HelloTemplateHaskell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACB96E41EE745690001AE9F /* HelloTemplateHaskell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB96F71EE745690001AE9F /* Build configuration list for PBXNativeTarget "HelloTemplateHaskell" */;
+			buildPhases = (
+				DACB96E11EE745690001AE9F /* Sources */,
+				DACB96E21EE745690001AE9F /* Frameworks */,
+				DACB96E31EE745690001AE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloTemplateHaskell;
+			productName = HelloTemplateHaskell;
+			productReference = DACB96E51EE745690001AE9F /* HelloTemplateHaskell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACB96DD1EE745680001AE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zw3rk;
+				TargetAttributes = {
+					DACB96E41EE745690001AE9F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BDES9PU4M2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DACB96E01EE745680001AE9F /* Build configuration list for PBXProject "HelloTemplateHaskell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACB96DC1EE745680001AE9F;
+			productRefGroup = DACB96E61EE745690001AE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACB96E41EE745690001AE9F /* HelloTemplateHaskell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACB96E31EE745690001AE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB96F31EE745690001AE9F /* LaunchScreen.storyboard in Resources */,
+				DACB96F01EE745690001AE9F /* Assets.xcassets in Resources */,
+				DACB96EE1EE745690001AE9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACB96E11EE745690001AE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB96EB1EE745690001AE9F /* ViewController.swift in Sources */,
+				DACB96E91EE745690001AE9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DACB96EC1EE745690001AE9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACB96ED1EE745690001AE9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DACB96F11EE745690001AE9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACB96F21EE745690001AE9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACB96F51EE745690001AE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACB96F61EE745690001AE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACB96F81EE745690001AE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BDES9PU4M2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HelloTemplateHaskell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hs-libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zw3rk.HelloTemplateHaskell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloTemplateHaskell/HelloTemplateHaskell-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DACB96F91EE745690001AE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BDES9PU4M2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HelloTemplateHaskell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hs-libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zw3rk.HelloTemplateHaskell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloTemplateHaskell/HelloTemplateHaskell-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACB96E01EE745680001AE9F /* Build configuration list for PBXProject "HelloTemplateHaskell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB96F51EE745690001AE9F /* Debug */,
+				DACB96F61EE745690001AE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB96F71EE745690001AE9F /* Build configuration list for PBXNativeTarget "HelloTemplateHaskell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB96F81EE745690001AE9F /* Debug */,
+				DACB96F91EE745690001AE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACB96DD1EE745680001AE9F /* Project object */;
+}
